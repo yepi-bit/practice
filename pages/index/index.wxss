@@ -1,0 +1,73 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.inbtning{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+}
+.inbtn{
+  display: flex;
+  background-color:white;
+  height: 90rpx;
+  width:86%;
+  margin:0 auto;
+  border-radius: 10rpx;
+  border:4rpx solid green;
+}
+.searchtxt{
+  background-color:white;
+  line-height: 30rpx;
+  margin-top: 15rpx;
+}
+.input{
+background-color:white ;
+height: 80rpx;
+border-right:2rpx solid grey;
+margin-top: 6rpx;
+}
+.page-section-spacing {
+margin:60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+
+}
+.scroll-view-item{
+ height: 300rpx,
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width:200rpx;
+  height:100rpx;
+  margin:10rpx;
+  background-color:rgb(252,248,248);
+  line-height:100rpx;
+  text-align: center;
+  border:1rpx solid rgb(194,192,192);
+  border-radius: 15rpx;
+}
+.scroll-view-item_H:hover{
+  color:red;
+  background-color:white;
+  border:1rpx solid red;
+}

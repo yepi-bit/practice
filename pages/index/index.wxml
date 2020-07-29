@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="inbtn">
+  <image class="inbtning" src="../../images/search.png"></image>
+  <text class="searchtxt">搜索</text>
+  <input class="input" name="userName" placeholder="请输入用户名" bindinput="userNameInput"/>
+  <image class="inbtning" src="../../images/position.png"></image>
+  <text class="searchtxt">搜索附近</text>
+</view>
+
+
+<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width:100%">
+  <view id="demo1" class="scroll-view-item_H demo-text-1">全部</view>
+  <view id="demo2" class="scroll-view-item_H demo-text-2">竞彩</view>
+  <view id="demo3" class="scroll-view-item_H demo-text-3">北单</view>  
+  <view id="demo4" class="scroll-view-item_H demo-text-4">足彩</view> 
+  <view id="demo5" class="scroll-view-item_H demo-text-5">关注</view>
+</scroll-view>
+<view>{{mytime}}</view>
