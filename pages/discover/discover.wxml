@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="container_text">
+        <view class="divide">
+          <view class="register" bindtap="click">{{name}}</view>
+          <view class="divide_left">
+            <image class="imgs" src="/images/warning.png"></image>
+            <text class="text">授权登录，以便为你提供更好的服务</text>
+          </view>
+        </view>
+        <view class="avatar">
+          <image class="img" src="{{path}}"></image>
+        </view>
+    </view>
+    <view class="middle">
+      <view class="center">
+              <view class="flex_center">
+                <view class="bold ">0</view>
+                <view class="flex_center_top">积分</view>
+              </view>
+              <view class="flex_center">
+                <view class="bold">0</view>
+                <view class="flex_center_top">收藏</view>
+              </view>
+              <view class="flex_center">
+                <view class="bold">0</view>
+                <view class="flex_center_top">关注</view>
+              </view>
+      </view>
+    </view>
+  <view class="menu">
+    <view class="menu_mid">
+        <view class="center">
+          <image class="coin" src="/images/VIP.png"></image>
+          会员中心
+        </view>
+       <text class="open">开通会员></text>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <navigator class='cell-item arrow'>
+    <text>帮助中心</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>推荐分享</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>赞赏支持</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>意见反馈</text>
+  </navigator>
+  <navigator class='hr arrow'>
+    <text>关于</text>
+  </navigator>
+</view>
+<view class="footer_name"><text>YePi-bit - ID10000</text></view>
+

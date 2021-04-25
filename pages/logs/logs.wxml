@@ -1,6 +1,65 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="content">
+  <view class="content-left">
+  <image class="head" src="{{path}}" ></image>
+  <text class="name1">{{name1}}</text>
+  </view>
+  <view class="content-right">
+    <image src="../../images/kefu1.png" class="itu"></image>
+    <image src="../../images/sez.png" class="itu"></image>
+  </view>
 </view>
+<view class="flex">
+  <view class="box">
+    <view class="first">我的钱包</view>
+    <view class="too">交易明细 ></view>
+  </view>
+  <view class="center">
+    <view class="flex_center">
+      <view class="bold ">0.00</view>
+      <view class="flex_center_top">账户总额 (元)</view>
+    </view>
+    <view class="flex_center">
+      <view class="bold">0</view>
+      <view class="flex_center_top">今日中奖 (元)</view>
+    </view>
+  </view>
+<view class="money">
+    <view class="flex_center_bottom1">
+      <text class="text_one1" >充值</text>
+    </view>
+    <view class="flex_center_bottom">
+      <text class="text_one">提款</text>
+    </view>
+</view>
+</view>
+<view class="flex1">
+  <view class="box">
+      <view class="first">投注记录</view>
+      <view class="too">全部记录 ></view>
+  </view>
+    <view class="center">
+          <view class="flex_center">
+            <view class="bold ">0</view>
+            <view class="flex_center_top1">待出票</view>
+          </view>
+          <view class="flex_center">
+            <view class="bold">0</view>
+            <view class="flex_center_top1">待开奖</view>
+          </view>
+          <view class="flex_center">
+            <view class="bold">0</view>
+            <view class="flex_center_top1">已中奖</view>
+          </view>
+  </view>
+</view>
+<view class="money1">
+  <image class="img" mode="widthFix" src="https://public.zgzcw.com/d/images/20203311585626110579_824.png"></image>
+</view>
+<view class="top menu">
+  <view class="button" wx:for="{{topMenu}}" wx:key="id">
+    <image class="icon" src="/img/t{{item.id}}.png"></image>
+    <view class="name">{{item.name}}</view>
+  </view>
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>

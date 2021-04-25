@@ -1,0 +1,45 @@
+<view class="userdetail">
+  <view class="user_txt">
+    <view class="user_img">
+      <image src="http://img.zcool.cn/community/010e9557f74cbba84a0d304faa657c.jpg"></image>
+    </view>
+    <view class="user_edit">
+      <view class="path">
+        <view class="path_txt">
+          <text>0</text>
+          <text>粉丝</text>
+        </view>
+        <view class="path_txt">
+          <text>0</text>
+          <text>关注</text>
+        </view>
+        <view class="path_txt">
+          <text>0</text>
+          <text>获赞</text>
+        </view>
+      </view>
+      <view class="user_Btn">
+         <text>编辑资料</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='countDown'>上升沿：<text style='color:red'>{{countDownNum}}</text>s</view>
+
+<view class="countDownTimeView" >
+  <view class="year">距2022年：
+      <view class="voteText ">{{countDownDay}}天</view>
+      <view class="voteText ">{{countDownHour}}时</view>
+      <view class="voteText ">{{countDownMinute}}分</view>
+      <view class="voteText ">{{countDownSecond}}秒</view>
+    </view>
+</view>
+
+<view class="publish">
+  <view class="service">
+    <button class="btn" bindtap="btnSelect"></button>
+    <image mode="heightFix" src="/images/publish.png"></image>
+  </view>
+</view>
+

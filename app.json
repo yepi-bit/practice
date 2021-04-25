@@ -1,13 +1,47 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/bif/bif",
+    "pages/discover/discover",
+    "pages/logs/logs",
+    "pages/pratice/pratice"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "酷彩",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1CB3D0",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouyea.png"
+      },
+      {
+        "pagePath": "pages/bif/bif",
+        "text": "比分",
+        "iconPath": "images/componet.png",
+        "selectedIconPath": "images/componets.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "images/plug.png",
+        "selectedIconPath": "images/plugs.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/mya.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

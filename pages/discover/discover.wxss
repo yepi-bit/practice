@@ -1,0 +1,138 @@
+page {
+  background-color: whitesmoke;
+}
+.container{
+  height:620rpx;
+  background: linear-gradient(to right,#1999cc,#e1eeee) !important;
+}
+
+.register{
+  font-size: 40rpx;
+  font-weight: 560;
+}
+.text{
+  margin-left: 12rpx;
+  font-size: 24rpx;
+}
+.container_text{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.divide{
+  margin-left: 24rpx;
+  align-items: center;
+}
+.divide_left{
+  margin-top: 20rpx;
+}
+.imgs{
+  width: 26rpx;
+  height: 26rpx;
+}
+.img{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+  animation: dh linear 1s infinite alternate;
+}
+.middle{
+  margin-top: 20rpx;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_center {
+	width: 40%;
+  height: 70rpx;
+  margin: 0 20rpx;
+  padding: 38rpx;
+  text-align: center;
+}
+.bold{
+  font-weight: 600;
+}
+.flex_center_top{
+  color: rgba(36, 39, 25, 0.342);
+  font-size: 28rpx;
+}
+.menu{
+  width: 88%;
+  padding: 17rpx;
+  flex-direction: column;
+  background-color: #000c41;
+}
+.menu_mid{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(204, 146, 70);
+  text-align: center;
+}
+.coin{
+  height: 30rpx;
+  width: 30rpx;
+  margin-right: 10rpx;
+}
+.center{
+  font-size: 30rpx;
+  font-weight: 550;
+  margin-left: 10rpx;
+}
+.open{
+  background-color: rgba(11, 221, 228, 0.973);
+  border-radius: 70rpx;
+  color: #fff;
+  padding: 12rpx;
+  font-size: 22rpx;
+}
+.footer{
+  width: 94%;
+  height: 530rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  background-color: white;
+  border-radius: 14rpx;
+}
+
+.cell{
+  background-color: #fff;
+   font-size:14px;
+   font-weight: bold;
+}
+ 
+.cell-item{
+  border-bottom: 1rpx solid #ddd;
+  padding: 30rpx 30rpx;
+}
+.hr{
+  font-size:14px;
+  padding: 30rpx 30rpx;
+}
+/* 箭头 */
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow::after{
+    content: "";
+    width: 15rpx;
+    height: 15rpx;
+    border-top: 3rpx solid #ccc;
+    border-right: 3rpx solid #ccc;
+    transform: rotate(45deg);
+}
+.trumpet{
+  width: 30rpx;
+  height: 30rpx;
+}
+.footer_name{
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: rgb(98, 77, 189);
+}

@@ -1,0 +1,127 @@
+.content{
+  display: flex;
+  height: 300rpx;
+  width: 100%;
+  justify-content: space-between;
+	border-bottom: 1rpx solid rgba(73, 14, 71, 0.801);
+}
+.background{
+  display: flex;
+  height: 360rpx;
+  width: 100%;
+}
+.content-left{
+  display: flex;
+  margin-top: -50rpx;
+  align-items: center;
+}
+.name{
+	color: white;
+	font-size: 50rpx;
+  font-weight: 700;
+  margin-top: -100rpx;
+  margin-left: 20rpx;
+}
+.head{
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+  margin-left: 25rpx;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.avatar{
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  border: 2px solid red;
+  border-radius: 50%;
+  animation: dh linear 1s infinite alternate;
+} 
+.img{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.avatars{
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50%;
+  background: rgba(0,0,0,.6);
+  opacity: 0.5;
+  transition: opacity 0s;
+  text-align: center;
+}
+.header{
+  display: flex;
+  float: right;
+}
+.header navigator,.header service {
+  height: 70rpx;
+}
+.header image {
+  height: 100%;
+}
+.service {
+  position: relative;
+  animation: dh linear 1s infinite alternate;
+}
+.service .btn {
+  position: absolute; width: 100%; height: 100%; top: 0; left: 0; opacity: 0;}
+
+page{
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin:90rpx auto;
+  background-color: white;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-sizing: border-box;
+}
+.circle {
+  position: absolute;
+  top: -6px;
+  bottom: -6px;
+  left: -6px;
+  right: -6px;
+  /*background-color: orange;*/
+  background: conic-gradient(#fc0 0%, transparent 40%,transparent);
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+}
+.circle:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 6px;
+  right: 6px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 50%;
+  background-color: pink;
+  border-radius: 50%;
+  transform: translate(-50%,-3px);
+  box-shadow: 0 0 4px 2px pink;
+}
+@keyframes rotate {
+  100% {
+      transform: rotate(-360deg);
+  }
+}

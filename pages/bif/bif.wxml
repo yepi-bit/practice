@@ -1,0 +1,21 @@
+<view class="content">
+  <image class="background" src="../../images/top.jpg"></image>
+</view>
+<view class="content-left">
+    <image class="head" src="{{path}}"></image>
+    <text class="name">{{name}}</text>
+</view>
+<view class="avatar" hover-class="avatars" hover-start-time="50" hover-stay-time="50">
+  <image class="img" src="http://img.zcool.cn/community/010e9557f74cbba84a0d304faa657c.jpg"></image>
+</view>
+
+<view class="header">
+  <navigator open-type="switchTab" url="/pages/logs/logs" class="service">
+    <button class="btn" open-type="contact"></button>
+    <image mode="heightFix" src="/images/service.png"></image>
+  </navigator>
+</view>
+
+<view class="container">
+        <view class="circle"></view>
+</view>

@@ -1,73 +1,86 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
-.inbtning{
-  width: 60rpx;
-  height: 60rpx;
-  margin-top: 20rpx;
-  margin-left: 10rpx;
-}
-.inbtn{
-  display: flex;
-  background-color:white;
-  height: 90rpx;
-  width:86%;
-  margin:0 auto;
-  border-radius: 10rpx;
-  border:4rpx solid green;
-}
-.searchtxt{
-  background-color:white;
-  line-height: 30rpx;
-  margin-top: 15rpx;
-}
-.input{
-background-color:white ;
-height: 80rpx;
-border-right:2rpx solid grey;
-margin-top: 6rpx;
-}
 .page-section-spacing {
 margin:60rpx;
 }
-.scroll-view_H{
-  white-space: nowrap;
+.advimgbtn{
+  background-color: white;
+  height: 30rpx;
+  width: 30rpx;
+  font-size: 30rpx;
+  text-align:center;
+  line-height: 25rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top:-10rpx;
+  left: -10rpx;
+}
+.advimg{
+  animation: dh linear 1s infinite alternate;
+  width: 100rpx;
+  height: 100rpx;
+  background-color:white ;
+  border-radius: 10rpx;
+  border:2rpx solid gray;
+  position: fixed;
+  right: 0;
+  top: 65%;
+}
+.advimg image{
+  width: 100rpx;
+  height: 100rpx;
+}
 
+image {
+  height: 80rpx;
+  width: 80rpx;
 }
-.scroll-view-item{
- height: 300rpx,
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.scroll-view-item_H{
-  display: inline-block;
-  width:200rpx;
-  height:100rpx;
-  margin:10rpx;
-  background-color:rgb(252,248,248);
-  line-height:100rpx;
-  text-align: center;
-  border:1rpx solid rgb(194,192,192);
-  border-radius: 15rpx;
+.top {
+  height: 360rpx;
+  background: white;
+  color: black;
 }
-.scroll-view-item_H:hover{
-  color:red;
-  background-color:white;
-  border:1rpx solid red;
+.norm {
+  height: 540rpx;
+  background: #eeeeee;
+  color: black;
+}
+.button {
+  height: 180rpx;
+  width: 180rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.notification {
+  position: fixed;
+  top: 400rpx;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 50rpx;
+  overflow: hidden;
+  background: white;
+}
+
+.left {
+  width: 27rpx;
+  height: 25rpx;
+}
+.text {
+  margin-left: 12rpx;
+  font-size: 12px;
+  color: red;
 }

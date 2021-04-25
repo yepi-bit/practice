@@ -8,3 +8,17 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider{
+  height: 20rpx;
+  background-color: #f1f1f1;
+  box-shadow: 0 5rpx 5rpx rgba(0,0,0,0);
+}
+@keyframes dh {
+  0%,50%,100%{opacity: 1;}
+  25%{opacity: 0;}
+}
